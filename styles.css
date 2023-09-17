@@ -1,0 +1,118 @@
+*{box-sizing:border-box;}
+
+html{font-size:45%;}
+#welcome-page{
+    margin-bottom:1000pt;
+}
+body{
+    font-family:'Arima', serif;
+    color:whitesmoke;
+    background: linear-gradient(
+        rgb(224, 241, 125) 3%,
+        #FFFFFF 40%,
+        #FFFFFF 70%,
+        #9c93ee 88%);
+    z-index:0;    
+
+    
+}        
+
+#navbar{
+    position:fixed;
+    height:70pt;
+    right:0;
+    top:0;
+    display:grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    background: linear-gradient(
+        rgb(216, 241, 75) , 
+        rgba(255, 255, 255, 0.0)
+    );
+    
+}
+
+.nav-bottom{
+    color:rgb(157, 112, 0);
+    text-decoration:none;
+    font-size: 12pt;
+    margin:10px 30px 10px;
+    
+}
+
+
+#me{
+    display:inline-block;
+    justify-content:center;
+    margin-top:150pt;
+    margin-left:200pt;
+    margin-bottom:300pt;
+    
+} 
+#logo{
+    display:block;
+    justify-content:center;
+    margin-top:200pt;
+    margin-left:900pt;
+    position:fixed;
+    z-index:-2;
+}
+.nav-bottom:hover {
+    opacity:0.2;
+}
+
+.h2-en{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#CV-section{
+    display:grid;
+    grid-template-columns: 40vw;
+    margin:0 30pt 200pt;
+    line-height:6rem;
+    font-size:2.5rem;
+    color:#88a380;
+}
+
+ul{list-style: none; padding:10px;}
+
+.projects-work{
+    display:grid;
+    margin-left:100pt;
+    grid-template-columns: 25vw 15vw 25vw;
+    grid-template-rows:30vw 20vw;
+    
+}
+
+.project-title{
+    font-size: 20pt;
+    font-family: 'Cormorant Garamond', serif;  
+}
+#light-installation{
+    color:rgb(156, 155, 155);
+}
+#rain-season{
+    color:rgb(156, 155, 155);
+}
+#zine{
+    color:rgb(156, 155, 155);
+}
+div > p{
+    font-size:12pt;
+}
+.links{
+    text-decoration:none;
+    color:#88a380;
+}
+.notes{
+    font-size:10pt;
+    color:rgb(170, 170, 169);
+}
+#ACM{
+    color:rgb(117, 115, 115)
+}
+#contact-section{
+    font-size:3rem;
+    margin-top:500pt;
+    display:flex;
+    text-align:center;
+}
