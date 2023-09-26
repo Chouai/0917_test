@@ -2,7 +2,7 @@
 
 html{font-size:45%;}
 #welcome-page{
-    margin-bottom:1000pt;
+    margin-bottom:100pt;
 }
 body{
     font-family:'Arima', serif;
@@ -13,7 +13,7 @@ body{
         #FFFFFF 70%,
         #9c93ee 88%);
     z-index:0;    
-
+    
     
 }        
 
@@ -49,10 +49,8 @@ body{
     
 } 
 #logo{
-    display:block;
-    justify-content:center;
-    margin-top:200pt;
-    margin-left:900pt;
+    left:80vw;
+    top:10vw;
     position:fixed;
     z-index:-2;
 }
@@ -70,32 +68,82 @@ body{
     margin:0 30pt 200pt;
     line-height:6rem;
     font-size:2.5rem;
-    color:#88a380;
+    color:rgb(101, 105, 35);
 }
 
 ul{list-style: none; padding:10px;}
 
-.projects-work{
-    display:grid;
-    margin-left:100pt;
-    grid-template-columns: 25vw 15vw 25vw;
-    grid-template-rows:30vw 20vw;
+#project-section{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    height:200vw;
+    
+}
+.projects-work1  {
+    display:flex;
+    /*margin-left:100pt;
+    grid-template-columns:1fr 2fr 1fr 1fr 2fr;
+    grid-template-rows:30vw 20vw;*/
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding-right:20vw;    
+}
+
+.projects-work2  {
+    display:flex;
+    flex-direction:row;
+    /*margin-left:100pt;
+    grid-template-columns:1fr 2fr 1fr 1fr 2fr;
+    grid-template-rows:30vw 20vw;*/
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding-right:20vw;    
     
 }
 
-.project-title{
-    font-size: 20pt;
+.projects-work3  {
+    display:flex;
+    flex-direction:row;
+    /*margin-left:100pt;
+    grid-template-columns:1fr 2fr 1fr 1fr 2fr;
+    grid-template-rows:30vw 20vw;*/
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding-right:20vw;    
+    
+}
+.img {
+    max-height:25vw;
+    margin-left:40pt;
+    
+}
+.img-p3{
+    max-height:30vw;
+    margin-left:40pt;
+}
+.content {
+    font-size:15pt;
+    color:rgb(156, 155, 155);
+    max-width:25vw;
+}
+/*#light-cotent{
+    font-size:15pt;
+    color:rgb(156, 155, 155);
+    max-width:25vw;
+}
+#zine-cotent{
+    font-size:15pt;
+    color:rgb(156, 155, 155);
+    max-width:25vw;
+}*/
+.title{
+    font-size: 15pt;
     font-family: 'Cormorant Garamond', serif;  
-}
-#light-installation{
     color:rgb(156, 155, 155);
 }
-#rain-season{
-    color:rgb(156, 155, 155);
-}
-#zine{
-    color:rgb(156, 155, 155);
-}
+
+
 div > p{
     font-size:12pt;
 }
@@ -115,4 +163,6 @@ div > p{
     margin-top:500pt;
     display:flex;
     text-align:center;
+    padding-left:5vw;
+    padding-bottom:20vw;
 }
