@@ -1,10 +1,8 @@
 *{box-sizing:border-box;}
 
-    
-
 #CV-section{
     display:grid;
-    grid-template-columns: 60vw;
+    grid-template-columns: 80vw;
     margin:0 30pt 200pt;
     line-height:3rem;
     font-size:1rem;
@@ -17,7 +15,7 @@ ul{list-style: none; padding:10px;}
     display:flex;
     flex-direction:column;
     justify-content:space-evenly;
-    height:400vw;
+    height:800vw;
     
 }
 .projects-work1, .projects-work2, .projects-work3  {
@@ -26,16 +24,13 @@ ul{list-style: none; padding:10px;}
     justify-content:space-around;
 }
 
-
-
-
 .img {
-    max-height:40vw;
+    max-height:60vw;
     margin-left:20vw;
     
 }
 .img-p3{
-    max-height:55vw;
+    max-height:75vw;
     margin-left:25vw;
 }
 
@@ -47,17 +42,18 @@ ul{list-style: none; padding:10px;}
 }
 
 .content {
-    font-size:12pt;
+    font-size:1rem;
+    line-height:1.5rem;
     color:rgb(156, 155, 155);
-    max-width:40vw;
-    margin-left:25vw;
+    max-width:65vw;
+    margin-left:20vw;
 }
 
 #me{
     position: absolute;
-    left:20vw;
+    left:10vw;
     top:15vw;
-    width:55vw;  
+    width:70vw;  
 } 
 
 .links{
@@ -75,5 +71,5 @@ ul{list-style: none; padding:10px;}
     display:flex;
     text-align:center;
     padding-left:5vw;
-    padding-bottom:20vw;
+    padding-bottom:80vw;
 }
