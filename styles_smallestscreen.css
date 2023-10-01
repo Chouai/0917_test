@@ -1,75 +1,80 @@
-*{box-sizing:border-box;}
-
-#CV-section{
-    display:grid;
-    grid-template-columns: 80vw;
-    margin:0 30pt 200pt;
-    line-height:3rem;
-    font-size:1rem;
-    color:rgb(101, 105, 35);
+* {
+  box-sizing: border-box;
 }
 
-ul{list-style: none; padding:10px;}
-
-#project-section{
-    display:flex;
-    flex-direction:column;
-    justify-content:space-evenly;
-    height:800vw;
-    
+#CV-section {
+  display: grid;
+  grid-template-columns: 80vw;
+  margin: 0 30pt 200pt;
+  line-height: 3rem;
+  font-size: 1rem;
+  color: rgb(101, 105, 35);
 }
-.projects-work1, .projects-work2, .projects-work3  {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
+
+ul {
+  list-style: none;
+  padding: 10px;
+}
+
+#project-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 800vw;
+}
+.projects-work1,
+.projects-work2,
+.projects-work3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .img {
-    max-height:60vw;
-    margin-left:20vw;
-    
+  max-height: 60vw;
+  margin-left: 20vw;
 }
-.img-p3{
-    max-height:75vw;
-    margin-left:25vw;
+.img-p3 {
+  max-height: 75vw;
+  margin-left: 25vw;
 }
 
-.title{
-    font-size: 15pt;
-    margin-left:25vw;
-    font-family: 'Cormorant Garamond', serif;  
-    color:rgb(156, 155, 155);
+.title {
+  font-size: 15pt;
+  margin-left: 25vw;
+  font-family: "Cormorant Garamond", serif;
+  color: rgb(156, 155, 155);
 }
 
 .content {
-    font-size:1rem;
-    line-height:1.5rem;
-    color:rgb(156, 155, 155);
-    max-width:65vw;
-    margin-left:20vw;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: rgb(156, 155, 155);
+  max-width: 65vw;
+  margin-left: 20vw;
 }
 
-#me{
-    position: absolute;
-    left:10vw;
-    top:15vw;
-    width:70vw;  
-} 
-
-.links{
-    text-decoration:none;
-    color:#88a380;
-}
-.notes{
-    font-size:10pt;
-    color:rgb(170, 170, 169);
+#me {
+  position: absolute;
+  left: 10vw;
+  top: 15vw;
+  width: 70vw;
 }
 
-#contact-section{
-    font-size:1.5rem;
-    margin-top:500pt;
-    display:flex;
-    text-align:center;
-    padding-left:5vw;
-    padding-bottom:80vw;
+.links {
+  text-decoration: none;
+  color: #88a380;
+}
+.notes {
+  font-size: 10pt;
+  color: rgb(170, 170, 169);
+}
+
+#contact-section {
+  font-size: 1.5rem;
+  margin-top: 500pt;
+  display: flex;
+  text-align: center;
+  padding-left: 5vw;
+  padding-bottom: 80vw;
 }
