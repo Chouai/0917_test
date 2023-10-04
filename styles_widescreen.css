@@ -37,7 +37,7 @@ body {
   color: #0022ff;
   font-size: 0.8em;
   background: #ffffff;
-  padding: 5px;
+  padding: 15px;
   border-radius: 5px;
   content: "Facebook";
   z-index: 3;
@@ -62,7 +62,7 @@ body {
 
 #CV-section {
   display: grid;
-  grid-template-columns: 40vw;
+  grid-template-columns: 50%;
   margin: 0 30pt 200pt;
   line-height: 3rem;
   font-size: 1.2rem;
